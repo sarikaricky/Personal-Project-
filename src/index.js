@@ -7,6 +7,7 @@ import { Link, Route } from 'react-router-dom';
 import { render } from 'react-dom'
 import { BrowserRouter as Router } from 'react-router-dom';
 import SignIn from './signin';
+import SignUp from './signup';
 
 
 ReactDOM.render((
@@ -14,6 +15,7 @@ ReactDOM.render((
     <div>
         <Route exact path="/" component={App} />
         <Route path="/signin" component={SignIn} />
+        <Route path="/signup" component={SignUp} />
     </div>
   </Router>
 ), document.getElementById('root'));

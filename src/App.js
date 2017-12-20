@@ -9,11 +9,12 @@ class App extends Component {
       <div>
         <Link to='/'>Home</Link>
         <Link to='/signin'>Sign In</Link>
+        <Link to='/signup'>Sign Up</Link>
       </div>
     );//add two buttons 
   }
 }
     
-    
+    //sign up page add. 
 
 export default App;
