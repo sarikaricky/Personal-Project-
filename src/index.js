@@ -20,6 +20,22 @@ ReactDOM.render((
   </Router>
 ), document.getElementById('root'));
 
-<button type="button">Click Me!</button>
+// 1. Create the button
+var button = document.createElement("button");
+button.innerHTML = "Sign In";
+
+// 2. Append somewhere
+var body = document.getElementsByTagName("body")[0];
+body.appendChild(button);
+
+// 3. Add event handler
+button.addEventListener ("click", function() {
+  alert("Sign Up");
+});
+
+/* Read 
+
+https://css-tricks.com/use-button-element/
+*/
 
 registerServiceWorker();
