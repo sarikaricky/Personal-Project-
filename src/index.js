@@ -20,4 +20,6 @@ ReactDOM.render((
   </Router>
 ), document.getElementById('root'));
 
+<button type="button">Click Me!</button>
+
 registerServiceWorker();

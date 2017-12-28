@@ -10,11 +10,11 @@ class App extends Component {
         <Link to='/'>Home</Link>
         <Link to='/signin'>Sign In</Link>
         <Link to='/signup'>Sign Up</Link>
+        <button type="button">Click Me!</button>
       </div>
-    );//add two buttons 
+    );
   }
 }
-    
-    //sign up page add. 
+
 
 export default App;
